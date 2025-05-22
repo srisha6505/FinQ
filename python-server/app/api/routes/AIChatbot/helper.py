@@ -5,9 +5,9 @@ from agno.models.google import Gemini
 from agno.models.groq import Groq
 from agno.tools.yfinance import YFinanceTools
 
-GOOGLE_API_KEY = 'AIzaSyA1UTZBEtdxZCHfZ6CLrPGAItwDhseXzBQ'
+GOOGLE_API_KEY = 'your_api_key_here_team_finq'
 gomodel=Gemini(id="gemini-2.0-flash",api_key=GOOGLE_API_KEY)  
-model = Groq(id="llama-3.3-70b-versatile", api_key='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')
+model = Groq(id="llama-3.3-70b-versatile", api_key='your_key')
 
 def finance_chatbot(query: str):
 
