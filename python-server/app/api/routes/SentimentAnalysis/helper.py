@@ -9,10 +9,10 @@ from typing import List
 from rich.pretty import pprint
 from pydantic import BaseModel, Field
 
-# GOOGLE_API_KEY = 'AIzaSyA1UTZBEtdxZCHfZ6CLrPGAItwDhseXzBQ'
+# GOOGLE_API_KEY = 'your api'
 # gomodel=Gemini(id="gemini-1.5-flash",api_key=GOOGLE_API_KEY)  
 
-model = Groq(id="llama-3.3-70b-versatile", api_key='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')
+model = Groq(id="llama-3.3-70b-versatile", api_key='your_api_key')
 
 
 class SentimentAnalysisResult(BaseModel):
