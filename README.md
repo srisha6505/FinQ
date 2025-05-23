@@ -100,9 +100,7 @@ FinQ/
 4. Push to the branch (`git push origin feature/my-feature`)
 5. Open a pull request
 
-## License
 
-This project does not currently specify a license.
 
 ## Contact
 
